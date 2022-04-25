@@ -23,7 +23,7 @@
 	<label >Expriation Month</label> <input type=number required/><br><br>
 	<label >Expriation Year</label> <input type=number required/><br><br>
 	<label >CVV Number</label> <input type=password required/><br><br>
-	<a href=BookFlight.jsp><input type=button value=Pay Now required/> </a>
+	<a href=BookFlight.jsp><input type=button value=Pay Now /> </a>
 	<input type=reset />
 	</form>
 </div>

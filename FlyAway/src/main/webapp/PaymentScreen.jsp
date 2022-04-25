@@ -13,7 +13,13 @@
 <a href=HomeScreen.jsp style="color:black;text-decoration:none ;font-size:35px;font-weight:bold;"><center>FlyAway--(An Airline Booking Portal)</center></a>
 <br><br>
 
-
+<%
+	@SuppressWarnings("unchecked")
+	HashMap<String,String> user=(HashMap<String,String>)session.getAttribute("user");
+	if(user==null){
+		response.sendRedirect("UserScreen.jsp");
+	}
+%>
 
 <center>
 <div style="border:5px solid Green;width:35%;padding:25px" align="center">
